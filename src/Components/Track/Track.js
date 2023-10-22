@@ -31,6 +31,14 @@ export class Track extends React.Component {
         <div className="Track-information">
           <h3>{this.props.track.name}</h3>
           <p>{this.props.track.artist} | {this.props.track.album}</p>
+          {this.props.track.preview_url ? (
+            <audio controls>
+            <source src={this.props.track.preview} type="audio/mpeg" />
+          </audio>
+          ) :(
+            <p>No preview available for this track.</p>
+          )}
+          
         </div>
         {this.renderAction()}
       </div>

@@ -28,3 +28,9 @@ Prerequisites:
     React
     HTTP Requests and Responses
     Authentication
+
+Part 2
+
+    Additional feature - Retrieve Track Preview Samples
+
+App deployed on Netlify @ https://curious-heliotrope-2a69da.netlify.app/
